@@ -1,7 +1,7 @@
 # RoutingStart
 
 # app.module.ts
-
+```
 const appRoutes: Routes = [
    { path: '', component: HomeComponent },
    { path: 'users', component: UsersComponent },
@@ -13,6 +13,7 @@ imports: [
     FormsModule,
     RouterModule.forRoot(appRoutes)
   ],
+```
 
 # app.component.html
 ```  <div class="container">
