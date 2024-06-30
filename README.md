@@ -30,7 +30,8 @@ imports: [
       <router-outlet></router-outlet>
     </div>
   </div>
-</div> ```
+</div> 
+```
 
 # home.component.ts
 ```
