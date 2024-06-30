@@ -35,11 +35,10 @@ imports: [
 # home.component.ts
 ```
 <button class="btn btn-btn-primary" (click)="navigateToSever()">Navigate to server</button>
-```
-```
-** navigateToSever() {
+
+navigateToSever() {
     this.router.navigate(['/servers'])
-  }**
+  }
 ```  
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.0.
